@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>realm のプライバシーポリシー</title>
+<style>
+  body { font-family: system-ui, "Hiragino Sans", "Noto Sans JP", sans-serif; line-height: 1.8; max-width: 40rem; margin: 0 auto; padding: 2rem 1rem; color: #1c2420; background: #fff; }
+  h1 { font-size: 1.6rem; } h2 { font-size: 1.15rem; margin-top: 2rem; }
+  @media (prefers-color-scheme: dark) { body { color: #e5ebe7; background: #141816; } a { color: #98a4ff; } }
+</style>
+</head>
+<body>
+<h1>realm のプライバシーポリシー</h1>
+<p>最終更新: 2026-11-23</p>
+<p><a href="./">realm</a> は、使う人が自分の Mac の上で動かす個人用の道具です。このページは、realm が Google のアカウントから読むデータの扱いを説明します。</p>
+
+<h2>読むデータ</h2>
+<ul>
+  <li>Gmail のメール (差出人、宛先、件名、本文、添付の名前)</li>
+  <li>Google Calendar の予定 (名前、日時、説明、出席者、返事の状態)</li>
+</ul>
+<p>権限は読み取り専用です。メールの送信や削除、予定の作成や変更はしません。</p>
+
+<h2>データの行き先</h2>
+<ul>
+  <li>読んだデータは、使う人の Mac に保存されます。</li>
+  <li>realm の配布者には、何も送られません。配布者は、使う人のメールも予定も、認可の情報も受け取りません。</li>
+  <li>使う人が自分で設定した場合に限り、データはその人自身の保存先 (自分の git の repo など) と、その人が自分の契約で使う AI アシスタントに渡ります。メールや予定からやることの候補を拾う処理に、AI アシスタントを使うためです。</li>
+  <li>それ以外の第三者に、データを渡したり売ったりしません。広告にも使いません。</li>
+</ul>
+
+<h2>認可の情報</h2>
+<p>Google の認可で得た token は、使う人の Mac の Keychain に保存されます。ほかの場所には送りません。</p>
+
+<h2>やめるとき</h2>
+<p>Google アカウントの <a href="https://myaccount.google.com/permissions">「アカウントにアクセスできるアプリ」</a> で、realm の権限をいつでも取り消せます。Mac に保存されたデータは、使う人が自分で消せます。</p>
+
+<h2>連絡先</h2>
+<p>質問は、<a href="https://github.com/toshohirasawa/realm-app/issues">GitHub の issue</a> に書いてください。</p>
+
+<hr>
+<div lang="en">
+<h2>Summary in English</h2>
+<p>realm runs on the user's own Mac and reads the user's Gmail messages and Google Calendar events with read-only access. The data is stored on the user's Mac. Nothing is sent to the distributor of realm. Only if the user sets it up, the data goes to the user's own storage (such as their own git repository) and to an AI assistant the user uses under their own account, in order to pick out things to act on. The data is not shared with or sold to any other third party, and is not used for advertising. The authorization token is kept in the macOS Keychain on the user's Mac. Access can be revoked at any time from the Google Account permissions page. Questions: open an issue on <a href="https://github.com/toshohirasawa/realm-app/issues">GitHub</a>.</p>
+</div>
+</body>
+</html>
